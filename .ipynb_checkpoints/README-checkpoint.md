@@ -15,6 +15,3 @@ This project is to construct a product as a working machine learning model that 
 # Goal 
 
 Use machine learning methodologies to uncover users' deomographics, such as age and/or gender, using machine learning language. This tool can be used by application owners to identify marketing strategies such as which models to partner with to tackle their demographic. 
-
-
-# Explain the files. 
