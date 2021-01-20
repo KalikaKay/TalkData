@@ -11,10 +11,29 @@ Introducing, TalkData!
 
 This project is to construct a product as a working machine learning model that can be used to predict the demographic of the individuals who have participated in this device plan. The plan provides the users' location coordinates, time they accessed the app, phone brand, phone model, applications that they're using, the category those applications belong to, and indicates whether or not the applications are in use.
 
+The project is built using several Jupyter Notebooks. By seperating the process out over several files, I was able to progress faster - as my system is prone to frequent freezes/crashes while I determine the most amount of data I can process in a given time.
 
-# Goal 
+# Notebook Details
 
-Use machine learning methodologies to uncover users' deomographics, such as age and/or gender, using machine learning language. This tool can be used by application owners to identify marketing strategies such as which models to partner with to tackle their demographic. 
-
-
-# Explain the files. 
+*  [Presentation](https://github.com/KalikaKay/TalkData/blob/main/Presentation.ipynb) 
+> A presentable notebook outlying the methods and procedures used in creating the product.
+* [Preprocessing](https://github.com/KalikaKay/TalkData/blob/main/Preprocessing.ipynb)
+> The preprocessing part of the project. It includes all steps that were taken to obtain/provide a single datasource absent any unnecessary columns and with no null values.
+* [Correrlation Matrix](https://github.com/KalikaKay/TalkData/blob/main/Correlation%20Matrix.ipynb) 
+> Expanding on the preprocessing notebook, it includes a correlation matrix.
+* [EDA](https://github.com/KalikaKay/TalkData/blob/main/EDA.ipynb)
+> Exploratory data analysis workbook walks you through the analysis.
+* [Model Selection](https://github.com/KalikaKay/TalkData/blob/main/Model%20Selection%20Gender.ipynb)
+> Creates several models, performs a gridsearch, builds and chooses the parameters for the dimensionality reduction, and displays the results. Test are run on several supervised classification models and one unsupervised model. 
+* [Performance Enhancing](https://github.com/KalikaKay/TalkData/blob/main/Performance%20Enhancing.ipynb) 
+> Work done to further enhance the model performance. Additional models reviewed to check for balanced accuracy.
+* [Group Classification](https://github.com/KalikaKay/TalkData/blob/main/Group%20Classification.ipynb) 
+> The results from a group classification attempt; which was promptly abandoned.
+* [Deep_Learning-Gender](https://github.com/KalikaKay/TalkData/blob/main/Deep_Learning_Gender.ipynb)
+> Classification on gender using a deep neural network. 
+* [Exercise_Deep_Learning_Convolutional](https://github.com/KalikaKay/TalkData/blob/main/Exercise_Deep_Learning_Convolutional.ipynb)
+> Classification using a convolutional neural network. 
+* [gender.pdf](https://github.com/KalikaKay/TalkData/blob/main/gender.pdf)
+> print out of the gender classification decision tree.
+* [gender](https://github.com/KalikaKay/TalkData/blob/main/gender)
+> a text representation of the classification decision tree.
