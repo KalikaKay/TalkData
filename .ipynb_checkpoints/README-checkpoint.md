@@ -15,7 +15,7 @@ The project is built using several Jupyter Notebooks. By seperating the process 
 
 # Notebook Details
 
-*  [Presentation](https://github.com/KalikaKay/TalkData/blob/main/Presentation.ipynb) 
+*  [Talkdata Analaysis and Presentation](https://github.com/KalikaKay/TalkData/blob/main/TalkData%20Analysis%20and%20Presentation.ipynb) 
 > A presentable notebook outlying the methods and procedures used in creating the product.
 * [Preprocessing](https://github.com/KalikaKay/TalkData/blob/main/Preprocessing.ipynb)
 > The preprocessing part of the project. It includes all steps that were taken to obtain/provide a single datasource absent any unnecessary columns and with no null values.
@@ -37,3 +37,5 @@ The project is built using several Jupyter Notebooks. By seperating the process 
 > print out of the gender classification decision tree.
 * [gender](https://github.com/KalikaKay/TalkData/blob/main/gender)
 > a text representation of the classification decision tree.
+* [Deep Learning Demographic Predictions](https://github.com/KalikaKay/TalkData/blob/main/Deep_Learning_Demographic_Prediction.ipynb) 
+> Uses the model built in the deep learning gender notebook to predict the ages, adds these results to the the gender learning's test dataset, and uses that information to predict users' demographcis.
