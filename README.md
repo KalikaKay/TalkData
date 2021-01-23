@@ -28,7 +28,7 @@ The project is built using several Jupyter Notebooks. By seperating the process 
 * [Performance Enhancing](https://github.com/KalikaKay/TalkData/blob/main/Performance%20Enhancing.ipynb) 
 > Work done to further enhance the model performance. Additional models reviewed to check for balanced accuracy.
 * [Group Classification](https://github.com/KalikaKay/TalkData/blob/main/Group%20Classification.ipynb) 
-> The results from a group classification attempt; which was promptly abandoned.
+> The results from a group classification attempt using supervised learning models. This attempt was revisits; receiving more succesful results after moving in a different direction. 
 * [Deep_Learning-Gender](https://github.com/KalikaKay/TalkData/blob/main/Deep_Learning_Gender.ipynb)
 > Classification on gender using a deep neural network. 
 * [Exercise_Deep_Learning_Convolutional](https://github.com/KalikaKay/TalkData/blob/main/Exercise_Deep_Learning_Convolutional.ipynb)
@@ -41,3 +41,4 @@ The project is built using several Jupyter Notebooks. By seperating the process 
 > Uses the model built in the deep learning gender notebook to predict the ages, adds these results to the the gender learning's test dataset, and uses that information to predict users' demographcis.
 * [GeoPlot](https://github.com/KalikaKay/TalkData/blob/main/GeoPlot.png)
 > A map of the users access by location.
+
